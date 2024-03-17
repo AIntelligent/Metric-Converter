@@ -43,9 +43,14 @@ https://github.com/AIntelligent, hek@nula.com.tr
 
         metric_cnv -S:lightyears --value:3.14 -T:Megameter
 
-# Output:
+# Test & Output:
 
-        metric_cnv -S:lightyears --value:3.14 -T:Megameter
+        C:\>metric_cnv -S:lightyears --value:3.14 -T:Megameter
+
+METRIC LENGTH UNIT CONVERTER (metric_cnv), Version 1.0
+
+The example program was written by Hakan E. Kartal in 2024 using C++
+https://github.com/AIntelligent, hek@nula.com.tr
 
         *** Question:
 
@@ -95,4 +100,3 @@ https://github.com/AIntelligent, hek@nula.com.tr
                 3.14 LightYears           = ( 5.51075780457074118E+59) Planck
                 3.14 LightYears           = ( 1.68292574206375016E+35) BohrRadius
                 3.14 LightYears           = ( 3.16034310065158817E+39) ElectronRadius
-                
