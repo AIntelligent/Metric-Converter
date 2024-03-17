@@ -171,7 +171,7 @@ void About()
 {
 	printf( "METRIC LENGTH UNIT CONVERTER (%s), Version 1.0\r\n\r\n", g_strAppName );
 	printf( "The example program was written by Hakan E. Kartal in 2024 using C++\r\n" );
-	printf( "https://github.com/AIntelligent\r\n" );
+	printf( "https://github.com/AIntelligent, hek@nula.com.tr\r\n" );
 }
 
 void HowToUse()
