@@ -1,29 +1,3 @@
-//
-// main.cpp
-//
-// Author:
-//       Hakan E. Kartal <hek@nula.com.tr>
-//
-// Copyright (c) 2024 Hakan E. Kartal
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy
-// of this software and associated documentation files (the "Software"), to deal
-// in the Software without restriction, including without limitation the rights
-// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-// copies of the Software, and to permit persons to whom the Software is
-// furnished to do so, subject to the following conditions:
-//
-// The above copyright notice and this permission notice shall be included in
-// all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-// THE SOFTWARE.
-//
 #include <iostream>
 #include <stdarg.h>
 
@@ -193,7 +167,7 @@ void HowToUse()
 	printf( "\r\nExamples:\r\n\r\n" );
 	printf( "\t%s -S:Parsecs -V:3.14 -T:Kilometer\r\n\r\n", g_strAppName );
 	printf( "\t%s --source:inch -V:3.14 --target:meter\r\n\r\n", g_strAppName );
-	printf( "\t%s -S:lightyears -value:3.14 -T:Megameter\r\n\r\n", g_strAppName );
+	printf( "\t%s -S:lightyears --value:3.14 -T:Megameter\r\n\r\n", g_strAppName );
 }
 
 bool ParseCmdLine( const char *inArgument, char *outCommand, char *outParameter )
@@ -319,7 +293,7 @@ void Convert( TItem &inSourceItem, double inSourceValue, TItem &inTargetItem )
 	char
 		l_arrFloatToStr[ 64 ];
 		
-	printf( "\r\n\t*** Question:\r\n\r\n\t\t%.18G:%ws = %ws?\r\n\r\n\t*** Answer:\r\n\r\n", 
+	printf( "\r\n\t*** Question:\r\n\r\n\t\t%.18G:%S = %S?\r\n\r\n\t*** Answer:\r\n\r\n", 
 			  inSourceValue, inSourceItem.UnitName, inTargetItem.UnitName );
 	
 	for (TItem l_varItem : Items)

@@ -23,13 +23,13 @@ OverrideOutputName=metric_cnv1.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
-CommandLine=--source:inch -v:1 --target:millimeter
+CommandLine=-S:lightyears --value:3.14 -T:Megameter
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=3
-CompilerSettings=0;0;0;19;21;2;4;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0
-UnitCount=1
+CompilerSet=4
+CompilerSettings=0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0
+UnitCount=4
 
 [VersionInfo]
 Major=1
@@ -52,6 +52,36 @@ SyncProduct=1
 
 [Unit1]
 FileName=main.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=unit.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=lengthunits.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=item.h
 CompileCpp=1
 Folder=
 Compile=1
