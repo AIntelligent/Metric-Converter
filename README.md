@@ -43,9 +43,11 @@ https://github.com/AIntelligent, hek@nula.com.tr
 
         metric_cnv -S:lightyears --value:3.14 -T:Megameter
 
-# Test & Output:
+# Test:
 
-        C:\>metric_cnv -S:lightyears --value:3.14 -T:Megameter
+        metric_cnv -S:lightyears --value:3.14 -T:Megameter
+
+# Output:
 
 METRIC LENGTH UNIT CONVERTER (metric_cnv), Version 1.0
 
