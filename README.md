@@ -1,7 +1,7 @@
 # METRIC LENGTH UNIT CONVERTER (metric_cnv), Version 1.0
 
 The example program was written by Hakan E. Kartal in 2024 using C++
-https://github.com/AIntelligent
+https://github.com/AIntelligent, hek@nula.com.tr
 
 # What does it to?
 
