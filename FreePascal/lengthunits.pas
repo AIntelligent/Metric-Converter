@@ -12,7 +12,7 @@ const
   LIGHT_MINUTES         = LIGHT_SECONDS * 60.0;
   LIGHT_HOURS           = LIGHT_MINUTES * 60.0;
   LIGHT_DAYS            = LIGHT_HOURS * 24.0;
-  LIGHT_YEARS           = LIGHT_DAYS * 365.2425;
+  LIGHT_YEAR            = LIGHT_DAYS * 365.2425;
 
 {$REGION ' Metric Units '}
   Attometer             : TUnit = (Factor : 0.000000000000000001;       Symbol : 'am');
@@ -51,7 +51,7 @@ const
   LightMinutes          : TUnit = (Factor : LIGHT_MINUTES;              Symbol : 'li:m');
   LightHours            : TUnit = (Factor : LIGHT_HOURS;                Symbol : 'li:h');
   LightDays             : TUnit = (Factor : LIGHT_DAYS;                 Symbol : 'li:D');
-  LightYears            : TUnit = (Factor : LIGHT_YEARS;                Symbol : 'li:Y');
+  LightYear             : TUnit = (Factor : LIGHT_YEAR;                 Symbol : 'li:Y');
 {$ENDREGION}
 
 {$REGION ' Astronomical Unit '}
