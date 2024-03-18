@@ -6,7 +6,7 @@
 #define LIGHTMINUTES (LIGHTSECONDS * 60.0)
 #define LIGHTHOURS (LIGHTMINUTES * 60.0)
 #define LIGHTDAYS (LIGHTHOURS * 24.0)
-#define LIGHTYEAR (LIGHTSECONDS * LIGHTDAYS * 365.2425) 
+#define LIGHTYEAR (LIGHTDAYS * 365.2425) 
    
 namespace LengthUnits
 {	
@@ -45,7 +45,7 @@ namespace LengthUnits
    const TUnit LightMinutes( LIGHTMINUTES, L"li:m");
    const TUnit LightHours( LIGHTHOURS, L"li:h");
    const TUnit LightDays( LIGHTDAYS, L"li:D" );
-   const TUnit LightYears( LIGHTYEAR, L"li:Y" );
+   const TUnit LightYear( LIGHTYEAR, L"li:Y" );
    
    // AstronomicalUnit
    const TUnit AstronomicalUnit( 1.495979E+11, L"AU" );

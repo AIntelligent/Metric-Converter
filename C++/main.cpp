@@ -64,7 +64,7 @@ const \
 		item_t( L"LightMinutes", 		(const PUnit)&LengthUnits::LightMinutes 		),
 		item_t( L"LightHours", 			(const PUnit)&LengthUnits::LightHours 			),
 		item_t( L"LightDays", 			(const PUnit)&LengthUnits::LightDays 			),
-		item_t( L"LightYears", 			(const PUnit)&LengthUnits::LightYears 			),
+		item_t( L"LightYear", 			(const PUnit)&LengthUnits::LightYear 			),
 		// -------------------------------------------------------------------------
 		// 	Astronomical Unit
 		// =========================================================================
@@ -154,7 +154,7 @@ void HowToUse()
 	printf( "\tThis program converts the specified length unit measurement value to other length unit values.\r\n" );
 	printf( "\r\nHow to usage:\r\n\r\n" );
 	printf( "\t%s -S[--source]:[Source Unit] -V[--value]:[Value] ", g_strAppName );
-	printf( "-t[--target]:[Target Unit] -H[--help]\r\n" );
+	printf( "-t[--target]:[Target Unit] -H|--help\r\n" );
 	printf( "\r\nParameters:\r\n\r\n" );
 	printf( "\t-S[--source]: Source Unit (see: Defined Units)\r\n" );
 	printf( "\t-V[--value]: Value (etc: 3.14)\r\n" );
