@@ -30,7 +30,7 @@ https://github.com/AIntelligent, hek@nula.com.tr
         Furlong (fur)                   Mile (mi)                       League (lea)
         Cubit (cu)                      NauticalLeague (Nlea)           LightSeconds (li:s)
         LightMinutes (li:m)             LightHours (li:h)               LightDays (li:D)
-        LightYears (li:Y)               AstronomicalUnit (AU)           Parsecs (pc)
+        LightYear (li:Y)                AstronomicalUnit (AU)           Parsecs (pc)
         Rod (rod)                       Mil (mil)                       NauticalMile (Nmi)
         Angstrom (an)                   Pole (po)                       Planck (p)
         BohrRadius (b,a.u.)             ElectronRadius (eR)
@@ -41,11 +41,11 @@ https://github.com/AIntelligent, hek@nula.com.tr
 
         metric_cnv --source:inch -V:3.14 --target:meter
 
-        metric_cnv -S:lightyears --value:3.14 -T:Megameter
+        metric_cnv -S:lightyear --value:3.14 -T:Megameter
 
 # Test:
 
-        metric_cnv -S:lightyears --value:3.14 -T:Megameter
+        metric_cnv -S:lightyear --value:3.14 -T:Megameter
 
 # Output:
 
@@ -56,49 +56,49 @@ https://github.com/AIntelligent, hek@nula.com.tr
 
         *** Question:
 
-                3.1400001049041748:LightYears = Megameter?
+                3.1400001049041748 LightYear = Megameter?
 
         *** Answer:
 
-                3.14 LightYears           = ( 8.90566014456578814E+42) Attometer
-                3.14 LightYears           = ( 8.90566014456578738E+39) Femtometer
-                3.14 LightYears           = ( 8.90566014456578819E+36) Pikometer
-                3.14 LightYears           = ( 8.90566014456578792E+33) Nanometer
-                3.14 LightYears           = ( 8.90566014456578867E+30) Micrometer
-                3.14 LightYears           = ( 8.90566014456578873E+27) Millimeter
-                3.14 LightYears           = ( 8.90566014456578873E+26) Centimeter
-                3.14 LightYears           = (  8.9056601445657877E+25) Decimeter
-                3.14 LightYears           = ( 8.90566014456578877E+24) Meter
-                3.14 LightYears           = ( 8.90566014456578877E+23) Decameter
-                3.14 LightYears           = ( 8.90566014456578777E+22) Hectometer
-                3.14 LightYears           = ( 8.90566014456578861E+21) Kilometer
+                3.14 LightYear            = ( 2.97060846826433116E+34) Attometer
+                3.14 LightYear            = ( 2.97060846826433108E+31) Femtometer
+                3.14 LightYear            = ( 2.97060846826433135E+28) Pikometer
+                3.14 LightYear            = ( 2.97060846826433127E+25) Nanometer
+                3.14 LightYear            = ( 2.97060846826433135E+22) Micrometer
+                3.14 LightYear            = ( 2.97060846826433126E+19) Millimeter
+                3.14 LightYear            = ( 2.97060846826433126E+18) Centimeter
+                3.14 LightYear            = (      297060846826433152) Decimeter
+                3.14 LightYear            = (       29706084682643316) Meter
+                3.14 LightYear            = (      2970608468264331.5) Decameter
+                3.14 LightYear            = (     297060846826433.125) Hectometer
+                3.14 LightYear            = (     29706084682643.3125) Kilometer
 
-                3.14 LightYears           = ( 8.90566014456578867E+18) Megameter            <---
+                3.14 LightYear            = (     29706084682.6433144) Megameter            <---
 
-                3.14 LightYears           = (        8905660144565789) Gigameter
-                3.14 LightYears           = (     8905660144565.78906) Terameter
-                3.14 LightYears           = (     8905660144.56578827) Petameter
-                3.14 LightYears           = (     8905660.14456578903) Exameter
-                3.14 LightYears           = ( 3.50616541124637363E+26) Inch
-                3.14 LightYears           = (  2.9218045093719776E+25) Foot
-                3.14 LightYears           = ( 9.73934836457325937E+24) Yard
-                3.14 LightYears           = (  4.4269765293514811E+23) Chain
-                3.14 LightYears           = ( 4.42697652935148144E+22) Furlong
-                3.14 LightYears           = (  5.5337206616893518E+21) Mile
-                3.14 LightYears           = ( 1.84457355389645069E+21) League
-                3.14 LightYears           = ( 1.94786967291465187E+25) Cubit
-                3.14 LightYears           = ( 1.60186650733112826E+21) NauticalLeague
-                3.14 LightYears           = (       29706084682643312) LightSeconds
-                3.14 LightYears           = (     495101411377388.562) LightMinutes
-                3.14 LightYears           = (     8251690189623.14258) LightHours
-                3.14 LightYears           = (      343820424567.63092) LightDays
-                3.14 LightYears           = (     59530649458085.8984) AstronomicalUnit
-                3.14 LightYears           = (     288612789.553389192) Parsecs
-                3.14 LightYears           = ( 1.77079061174059244E+24) Rod
-                3.14 LightYears           = ( 3.50616541124637355E+29) Mil
-                3.14 LightYears           = ( 4.80867178432278036E+21) NauticalMile
-                3.14 LightYears           = ( 8.90566014456578908E+34) Angstrom
-                3.14 LightYears           = ( 1.77079061174059244E+24) Pole
-                3.14 LightYears           = ( 5.51075780457074118E+59) Planck
-                3.14 LightYears           = ( 1.68292574206375016E+35) BohrRadius
-                3.14 LightYears           = ( 3.16034310065158817E+39) ElectronRadius
+                3.14 LightYear            = (      29706084.682643313) Gigameter
+                3.14 LightYear            = (     29706.0846826433153) Terameter
+                3.14 LightYear            = (     29.7060846826433149) Petameter
+                3.14 LightYear            = (   0.0297060846826433141) Exameter
+                3.14 LightYear            = ( 1.16953089301745331E+18) Inch
+                3.14 LightYear            = (       97460907751454432) Foot
+                3.14 LightYear            = (       32486969250484816) Yard
+                3.14 LightYear            = (     1476680420476582.25) Chain
+                3.14 LightYear            = (      147668042047658.25) Furlong
+                3.14 LightYear            = (     18458505255957.2812) Mile
+                3.14 LightYear            = (     6152835085319.09375) League
+                3.14 LightYear            = (       64973938500969632) Cubit
+                3.14 LightYear            = (     5343251521461.31836) NauticalLeague
+                3.14 LightYear            = (     99088832.5904560089) LightSeconds
+                3.14 LightYear            = (     1651480.54317426682) LightMinutes
+                3.14 LightYear            = (     27524.6757195711143) LightHours
+                3.14 LightYear            = (     1146.86148831546302) LightDays
+                3.14 LightYear            = (     198572.872230447858) AstronomicalUnit
+                3.14 LightYear            = (    0.962708640099909418) Parsecs
+                3.14 LightYear            = (        5906721681906329) Rod
+                3.14 LightYear            = (  1.1695308930174533E+21) Mil
+                3.14 LightYear            = (     16040002528425.1152) NauticalMile
+                3.14 LightYear            = ( 2.97060846826433127E+26) Angstrom
+                3.14 LightYear            = (        5906721681906329) Pole
+                3.14 LightYear            = ( 1.83819094093779436E+51) Planck
+                3.14 LightYear            = ( 5.61363602437173485E+26) BohrRadius
+                3.14 LightYear            = (  1.0541769868845693E+31) ElectronRadius
