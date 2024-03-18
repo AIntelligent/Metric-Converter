@@ -12,7 +12,7 @@ const
   LIGHT_MINUTES         = LIGHT_SECONDS * 60.0;
   LIGHT_HOURS           = LIGHT_MINUTES * 60.0;
   LIGHT_DAYS            = LIGHT_HOURS * 24.0;
-  LIGHT_YEARS           = LIGHT_SECONDS * LIGHT_DAYS * 365.2425;
+  LIGHT_YEARS           = LIGHT_DAYS * 365.2425;
 
 {$REGION ' Metric Units '}
   Attometer             : TUnit = (Factor : 0.000000000000000001;       Symbol : 'am');
