@@ -293,7 +293,7 @@ void Convert( TItem &inSourceItem, double inSourceValue, TItem &inTargetItem )
 	char
 		l_arrFloatToStr[ 64 ];
 		
-	printf( "\r\n\t*** Question:\r\n\r\n\t\t%.18G:%S = %S?\r\n\r\n\t*** Answer:\r\n\r\n", 
+	printf( "\r\n\t*** Question:\r\n\r\n\t\t%.18G %S = %S?\r\n\r\n\t*** Answer:\r\n\r\n", 
 			  inSourceValue, inSourceItem.UnitName, inTargetItem.UnitName );
 	
 	for (TItem l_varItem : Items)
