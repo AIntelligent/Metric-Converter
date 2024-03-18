@@ -63,7 +63,7 @@ const
       (UnitName : 'LightMinutes';         UnitPtr : @LightMinutes       ),
       (UnitName : 'LightHours';           UnitPtr : @LightHours         ),
       (UnitName : 'LightDays';            UnitPtr : @LightDays          ),
-      (UnitName : 'LightYears';           UnitPtr : @LightYears         ),
+      (UnitName : 'LightYear';            UnitPtr : @LightYear          ),
       // ----------------------------------------------------------------
       //   Astronomical Unit
       // ================================================================
