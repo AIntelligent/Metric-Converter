@@ -163,7 +163,7 @@ begin
   WriteLn;
   WriteLn( #9, g_strAppName, ' --source:inch -V:3.14 --target:meter' );
   WriteLn;
-  WriteLn( #9, g_strAppName, ' -S:lightyears --value:3.14 -T:Megameter' );
+  WriteLn( #9, g_strAppName, ' -S:lightyear --value:3.14 -T:Megameter' );
   WriteLn;
 end;
 
