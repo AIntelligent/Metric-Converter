@@ -384,7 +384,7 @@ begin
       end
     else
       begin
-        PrintError( 'Invalid parameter: "%s" or command: "%s"', [ l_strCommand, l_strParameter ] );
+        PrintError( 'Invalid command: "%s" or parameter: "%s"', [ l_strCommand, l_strParameter ] );
 
         HowToUse();
 
