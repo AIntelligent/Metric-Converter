@@ -382,7 +382,7 @@ int ProcessCmdLine( int inArgCount, char **inArgVector )
 			}
 			else 
 			{
-				PrintError( "Invalid parameter: '%s' or command: '%s'", l_arrCommand, l_arrParameter );
+				PrintError( "Invalid command: '%s' or parameter: '%s'", l_arrCommand, l_arrParameter );
 				
 				HowToUse();
 				
