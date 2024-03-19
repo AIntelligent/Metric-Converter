@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "metric_cnv": {
+      "commandName": "Project",
+      "commandLineArgs": "-S:inch -v:3.14 -T:millimeter"
+    }
+  }
+}
