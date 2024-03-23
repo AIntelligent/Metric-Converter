@@ -124,7 +124,7 @@ procedure About();
 begin
   WriteLn( 'METRIC LENGTH UNIT CONVERTER (', g_strAppName, '), Version 1.0' );
   WriteLn;
-  WriteLn( 'The example program was written by Hakan E. Kartal in 2024 using FreePascal' );
+  WriteLn( 'The example program was written by Hakan Emre Kartal in 2024 using FreePascal' );
   WriteLn( 'https://github.com/AIntelligent, hek@nula.com.tr' );
 end;
 
