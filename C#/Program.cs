@@ -109,7 +109,7 @@ class Program
    {
       Console.WriteLine( $"METRIC LENGTH UNIT CONVERTER ({g_strAppName}), Version 1.0" );
       Console.WriteLine();
-      Console.WriteLine( "The example program was written by Hakan E. Kartal in 2024 using C#" );
+      Console.WriteLine( "The example program was written by Hakan Emre Kartal in 2024 using C#" );
       Console.WriteLine( "https://github.com/AIntelligent, hek@nula.com.tr" );
    }
 
